@@ -1,0 +1,50 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v101.0
+## Output produced at 2020-11-20 14:02:26
+## Connected to oryza_sativa_core_48_101_7 on mysql-eg-publicsql.ebi.ac.uk
+## Using cache in /home/cameron/.vep/oryza_sativa/48_IRGSP-1.0
+## Using API version 101, DB version 101
+## ensembl-variation version 101.819eef2
+## ensembl-io version 101.943b6c2
+## ensembl-funcgen version 101.b918a49
+## ensembl version 101.856c8e8
+## genebuild version 2019-06-RAPDB
+## assembly version IRGSP-1.0
+## sift version 5.2.2
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## SIFT : SIFT prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	SIFT
+Chr2_4639938_G/A	Chr2:4639938	A	Os02g0183000	Os02t0183000-00	Transcript	3_prime_UTR_variant	1057	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640096_A/T	Chr2:4640096	T	Os02g0183000	Os02t0183000-00	Transcript	3_prime_UTR_variant	899	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640115_A/G	Chr2:4640115	G	Os02g0183000	Os02t0183000-00	Transcript	3_prime_UTR_variant	880	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640120_G/A	Chr2:4640120	A	Os02g0183000	Os02t0183000-00	Transcript	3_prime_UTR_variant	875	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640123_A/G	Chr2:4640123	G	Os02g0183000	Os02t0183000-00	Transcript	3_prime_UTR_variant	872	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640270_C/T	Chr2:4640270	T	Os02g0183000	Os02t0183000-00	Transcript	missense_variant	725	596	199	P/L	cCa/cTa	-	MODERATE	-	-1	-	deleterious(0)
+Chr2_4640484_T/C	Chr2:4640484	C	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640656_C/T	Chr2:4640656	T	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640674_C/A	Chr2:4640674	A	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640676_A/G	Chr2:4640676	G	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640798_T/C	Chr2:4640798	C	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640807_C/T	Chr2:4640807	T	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4640808_G/A	Chr2:4640808	A	Os02g0183000	Os02t0183000-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4641045_A/G	Chr2:4641045	G	Os02g0183000	Os02t0183000-00	Transcript	synonymous_variant	465	336	112	K	aaA/aaG	-	LOW	-	-1	-	-
+Chr2_4641276_G/A	Chr2:4641276	A	Os02g0183000	Os02t0183000-00	Transcript	stop_retained_variant	330	201	67	*	taG/taA	-	LOW	-	-1	-	-
+Chr2_4641586_G/A	Chr2:4641586	A	Os02g0183000	Os02t0183000-00	Transcript	5_prime_UTR_variant	101	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4641665_A/T	Chr2:4641665	T	Os02g0183000	Os02t0183000-00	Transcript	5_prime_UTR_variant	22	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4641676_T/C	Chr2:4641676	C	Os02g0183000	Os02t0183000-00	Transcript	5_prime_UTR_variant	11	-	-	-	-	-	MODIFIER	-	-1	-	-

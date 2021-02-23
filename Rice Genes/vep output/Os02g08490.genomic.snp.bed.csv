@@ -1,0 +1,234 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v101.0
+## Output produced at 2020-11-20 14:01:28
+## Connected to oryza_sativa_core_48_101_7 on mysql-eg-publicsql.ebi.ac.uk
+## Using cache in /home/cameron/.vep/oryza_sativa/48_IRGSP-1.0
+## Using API version 101, DB version 101
+## ensembl version 101.856c8e8
+## ensembl-variation version 101.819eef2
+## ensembl-io version 101.943b6c2
+## ensembl-funcgen version 101.b918a49
+## assembly version IRGSP-1.0
+## sift version 5.2.2
+## genebuild version 2019-06-RAPDB
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## SIFT : SIFT prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	SIFT
+Chr2_4567977_C/A	Chr2:4567977	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1380	1	-	-
+Chr2_4567977_C/A	Chr2:4567977	A	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2953	2817	939	N/K	aaC/aaA	-	MODERATE	-	-1	-	-
+Chr2_4568011_A/G	Chr2:4568011	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1414	1	-	-
+Chr2_4568011_A/G	Chr2:4568011	G	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2919	2783	928	K/R	aAg/aGg	-	MODERATE	-	-1	-	tolerated(0.24)
+Chr2_4568016_C/T	Chr2:4568016	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1419	1	-	-
+Chr2_4568016_C/T	Chr2:4568016	T	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	2914	2778	926	H	caC/caT	-	LOW	-	-1	-	-
+Chr2_4568066_G/T	Chr2:4568066	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1469	1	-	-
+Chr2_4568066_G/T	Chr2:4568066	T	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2864	2728	910	V/F	Gtc/Ttc	-	MODERATE	-	-1	-	tolerated(0.06)
+Chr2_4568441_T/C	Chr2:4568441	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1844	1	-	-
+Chr2_4568441_T/C	Chr2:4568441	C	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2624	2488	830	S/P	Tca/Cca	-	MODERATE	-	-1	-	tolerated(0.3)
+Chr2_4568547_A/G	Chr2:4568547	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1950	1	-	-
+Chr2_4568547_A/G	Chr2:4568547	G	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	2518	2382	794	E	gaA/gaG	-	LOW	-	-1	-	-
+Chr2_4568675_T/C	Chr2:4568675	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2078	1	-	-
+Chr2_4568675_T/C	Chr2:4568675	C	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2390	2254	752	F/L	Ttt/Ctt	-	MODERATE	-	-1	-	deleterious(0)
+Chr2_4568709_G/A	Chr2:4568709	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2112	1	-	-
+Chr2_4568709_G/A	Chr2:4568709	A	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	2356	2220	740	A	gcG/gcA	-	LOW	-	-1	-	-
+Chr2_4568799_G/A	Chr2:4568799	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2202	1	-	-
+Chr2_4568799_G/A	Chr2:4568799	A	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	2266	2130	710	T	acG/acA	-	LOW	-	-1	-	-
+Chr2_4568934_G/T	Chr2:4568934	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2337	1	-	-
+Chr2_4568934_G/T	Chr2:4568934	T	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2131	1995	665	Q/H	caG/caT	-	MODERATE	-	-1	-	-
+Chr2_4568934_G/T	Chr2:4568934	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4897	-1	-	-
+Chr2_4568934_G/T	Chr2:4568934	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4913	1	-	-
+Chr2_4568985_G/T	Chr2:4568985	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2388	1	-	-
+Chr2_4568985_G/T	Chr2:4568985	T	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	2080	1944	648	K/N	aaG/aaT	-	MODERATE	-	-1	-	-
+Chr2_4568985_G/T	Chr2:4568985	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4846	-1	-	-
+Chr2_4568985_G/T	Chr2:4568985	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4862	1	-	-
+Chr2_4569228_G/C	Chr2:4569228	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2631	1	-	-
+Chr2_4569228_G/C	Chr2:4569228	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4569228_G/C	Chr2:4569228	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4603	-1	-	-
+Chr2_4569228_G/C	Chr2:4569228	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4619	1	-	-
+Chr2_4569239_T/C	Chr2:4569239	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2642	1	-	-
+Chr2_4569239_T/C	Chr2:4569239	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4569239_T/C	Chr2:4569239	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4592	-1	-	-
+Chr2_4569239_T/C	Chr2:4569239	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4608	1	-	-
+Chr2_4569385_C/G	Chr2:4569385	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2788	1	-	-
+Chr2_4569385_C/G	Chr2:4569385	G	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	1771	1635	545	L	ctC/ctG	-	LOW	-	-1	-	-
+Chr2_4569385_C/G	Chr2:4569385	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4446	-1	-	-
+Chr2_4569385_C/G	Chr2:4569385	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4462	1	-	-
+Chr2_4569499_A/G	Chr2:4569499	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2902	1	-	-
+Chr2_4569499_A/G	Chr2:4569499	G	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	1657	1521	507	E	gaA/gaG	-	LOW	-	-1	-	-
+Chr2_4569499_A/G	Chr2:4569499	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4332	-1	-	-
+Chr2_4569499_A/G	Chr2:4569499	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4348	1	-	-
+Chr2_4569523_T/A	Chr2:4569523	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2926	1	-	-
+Chr2_4569523_T/A	Chr2:4569523	A	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	1633	1497	499	I	atT/atA	-	LOW	-	-1	-	-
+Chr2_4569523_T/A	Chr2:4569523	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4308	-1	-	-
+Chr2_4569523_T/A	Chr2:4569523	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4324	1	-	-
+Chr2_4569635_T/C	Chr2:4569635	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3038	1	-	-
+Chr2_4569635_T/C	Chr2:4569635	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4569635_T/C	Chr2:4569635	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4196	-1	-	-
+Chr2_4569635_T/C	Chr2:4569635	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4212	1	-	-
+Chr2_4569714_C/T	Chr2:4569714	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3117	1	-	-
+Chr2_4569714_C/T	Chr2:4569714	T	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	1537	1401	467	A	gcC/gcT	-	LOW	-	-1	-	-
+Chr2_4569714_C/T	Chr2:4569714	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4117	-1	-	-
+Chr2_4569714_C/T	Chr2:4569714	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	4133	1	-	-
+Chr2_4570212_G/A	Chr2:4570212	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3615	1	-	-
+Chr2_4570212_G/A	Chr2:4570212	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4570212_G/A	Chr2:4570212	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3619	-1	-	-
+Chr2_4570212_G/A	Chr2:4570212	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	3635	1	-	-
+Chr2_4570225_T/C	Chr2:4570225	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3628	1	-	-
+Chr2_4570225_T/C	Chr2:4570225	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4570225_T/C	Chr2:4570225	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3606	-1	-	-
+Chr2_4570225_T/C	Chr2:4570225	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	3622	1	-	-
+Chr2_4570476_G/A	Chr2:4570476	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3879	1	-	-
+Chr2_4570476_G/A	Chr2:4570476	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4570476_G/A	Chr2:4570476	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3355	-1	-	-
+Chr2_4570476_G/A	Chr2:4570476	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	3371	1	-	-
+Chr2_4570492_A/G	Chr2:4570492	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3895	1	-	-
+Chr2_4570492_A/G	Chr2:4570492	G	Os02g0181900	Os02t0181900-01	Transcript	splice_region_variant,intron_variant	-	-	-	-	-	-	LOW	-	-1	-	-
+Chr2_4570492_A/G	Chr2:4570492	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3339	-1	-	-
+Chr2_4570492_A/G	Chr2:4570492	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	3355	1	-	-
+Chr2_4570715_T/C	Chr2:4570715	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4118	1	-	-
+Chr2_4570715_T/C	Chr2:4570715	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4570715_T/C	Chr2:4570715	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	3116	-1	-	-
+Chr2_4570715_T/C	Chr2:4570715	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	3132	1	-	-
+Chr2_4571009_T/C	Chr2:4571009	C	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4412	1	-	-
+Chr2_4571009_T/C	Chr2:4571009	C	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	1078	942	314	A	gcT/gcC	-	LOW	-	-1	-	-
+Chr2_4571009_T/C	Chr2:4571009	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2822	-1	-	-
+Chr2_4571009_T/C	Chr2:4571009	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2838	1	-	-
+Chr2_4571022_G/A	Chr2:4571022	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4425	1	-	-
+Chr2_4571022_G/A	Chr2:4571022	A	Os02g0181900	Os02t0181900-01	Transcript	splice_region_variant,intron_variant	-	-	-	-	-	-	LOW	-	-1	-	-
+Chr2_4571022_G/A	Chr2:4571022	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2809	-1	-	-
+Chr2_4571022_G/A	Chr2:4571022	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2825	1	-	-
+Chr2_4571037_G/A	Chr2:4571037	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4440	1	-	-
+Chr2_4571037_G/A	Chr2:4571037	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571037_G/A	Chr2:4571037	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2794	-1	-	-
+Chr2_4571037_G/A	Chr2:4571037	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2810	1	-	-
+Chr2_4571096_T/C,G	Chr2:4571096	C,G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4499	1	-	-
+Chr2_4571096_T/C,G	Chr2:4571096	C,G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571096_T/C,G	Chr2:4571096	C,G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2735	-1	-	-
+Chr2_4571096_T/C,G	Chr2:4571096	C,G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2751	1	-	-
+Chr2_4571097_T/A	Chr2:4571097	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4500	1	-	-
+Chr2_4571097_T/A	Chr2:4571097	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571097_T/A	Chr2:4571097	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2734	-1	-	-
+Chr2_4571097_T/A	Chr2:4571097	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2750	1	-	-
+Chr2_4571108_G/T	Chr2:4571108	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4511	1	-	-
+Chr2_4571108_G/T	Chr2:4571108	T	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571108_G/T	Chr2:4571108	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2723	-1	-	-
+Chr2_4571108_G/T	Chr2:4571108	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2739	1	-	-
+Chr2_4571112_G/T	Chr2:4571112	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4515	1	-	-
+Chr2_4571112_G/T	Chr2:4571112	T	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571112_G/T	Chr2:4571112	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2719	-1	-	-
+Chr2_4571112_G/T	Chr2:4571112	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2735	1	-	-
+Chr2_4571118_T/G	Chr2:4571118	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4521	1	-	-
+Chr2_4571118_T/G	Chr2:4571118	G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571118_T/G	Chr2:4571118	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2713	-1	-	-
+Chr2_4571118_T/G	Chr2:4571118	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2729	1	-	-
+Chr2_4571124_T/G	Chr2:4571124	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4527	1	-	-
+Chr2_4571124_T/G	Chr2:4571124	G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571124_T/G	Chr2:4571124	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2707	-1	-	-
+Chr2_4571124_T/G	Chr2:4571124	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2723	1	-	-
+Chr2_4571126_G/T	Chr2:4571126	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4529	1	-	-
+Chr2_4571126_G/T	Chr2:4571126	T	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571126_G/T	Chr2:4571126	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2705	-1	-	-
+Chr2_4571126_G/T	Chr2:4571126	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2721	1	-	-
+Chr2_4571130_T/G	Chr2:4571130	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4533	1	-	-
+Chr2_4571130_T/G	Chr2:4571130	G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571130_T/G	Chr2:4571130	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2701	-1	-	-
+Chr2_4571130_T/G	Chr2:4571130	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2717	1	-	-
+Chr2_4571132_G/T	Chr2:4571132	T	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4535	1	-	-
+Chr2_4571132_G/T	Chr2:4571132	T	Os02g0181900	Os02t0181900-01	Transcript	splice_region_variant,intron_variant	-	-	-	-	-	-	LOW	-	-1	-	-
+Chr2_4571132_G/T	Chr2:4571132	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2699	-1	-	-
+Chr2_4571132_G/T	Chr2:4571132	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2715	1	-	-
+Chr2_4571546_A/G	Chr2:4571546	G	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4949	1	-	-
+Chr2_4571546_A/G	Chr2:4571546	G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4571546_A/G	Chr2:4571546	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2285	-1	-	-
+Chr2_4571546_A/G	Chr2:4571546	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2301	1	-	-
+Chr2_4571597_G/A	Chr2:4571597	A	Os02g0181800	Os02t0181800-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	5000	1	-	-
+Chr2_4571597_G/A	Chr2:4571597	A	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	841	705	235	S	tcG/tcA	-	LOW	-	-1	-	-
+Chr2_4571597_G/A	Chr2:4571597	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	2234	-1	-	-
+Chr2_4571597_G/A	Chr2:4571597	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	2250	1	-	-
+Chr2_4571973_C/T	Chr2:4571973	T	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	545	409	137	H/Y	Cat/Tat	-	MODERATE	-	-1	-	deleterious(0)
+Chr2_4571973_C/T	Chr2:4571973	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1858	-1	-	-
+Chr2_4571973_C/T	Chr2:4571973	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1874	1	-	-
+Chr2_4572062_C/G	Chr2:4572062	G	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	456	320	107	A/G	gCg/gGg	-	MODERATE	-	-1	-	-
+Chr2_4572062_C/G	Chr2:4572062	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1769	-1	-	-
+Chr2_4572062_C/G	Chr2:4572062	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1785	1	-	-
+Chr2_4572127_A/G	Chr2:4572127	G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572127_A/G	Chr2:4572127	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1704	-1	-	-
+Chr2_4572127_A/G	Chr2:4572127	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1720	1	-	-
+Chr2_4572139_G/A	Chr2:4572139	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572139_G/A	Chr2:4572139	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1692	-1	-	-
+Chr2_4572139_G/A	Chr2:4572139	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1708	1	-	-
+Chr2_4572161_T/C	Chr2:4572161	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572161_T/C	Chr2:4572161	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1670	-1	-	-
+Chr2_4572161_T/C	Chr2:4572161	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1686	1	-	-
+Chr2_4572287_T/C	Chr2:4572287	C	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572287_T/C	Chr2:4572287	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1544	-1	-	-
+Chr2_4572287_T/C	Chr2:4572287	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1560	1	-	-
+Chr2_4572305_C/G	Chr2:4572305	G	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572305_C/G	Chr2:4572305	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1526	-1	-	-
+Chr2_4572305_C/G	Chr2:4572305	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1542	1	-	-
+Chr2_4572504_C/A	Chr2:4572504	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572504_C/A	Chr2:4572504	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1327	-1	-	-
+Chr2_4572504_C/A	Chr2:4572504	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1343	1	-	-
+Chr2_4572529_G/A	Chr2:4572529	A	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572529_G/A	Chr2:4572529	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1302	-1	-	-
+Chr2_4572529_G/A	Chr2:4572529	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1318	1	-	-
+Chr2_4572621_C/T	Chr2:4572621	T	Os02g0181900	Os02t0181900-01	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572621_C/T	Chr2:4572621	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1210	-1	-	-
+Chr2_4572621_C/T	Chr2:4572621	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1226	1	-	-
+Chr2_4572690_T/G	Chr2:4572690	G	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	360	224	75	L/R	cTg/cGg	-	MODERATE	-	-1	-	tolerated_low_confidence(0.57)
+Chr2_4572690_T/G	Chr2:4572690	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1141	-1	-	-
+Chr2_4572690_T/G	Chr2:4572690	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1157	1	-	-
+Chr2_4572692_C/T	Chr2:4572692	T	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	358	222	74	P	ccC/ccT	-	LOW	-	-1	-	-
+Chr2_4572692_C/T	Chr2:4572692	T	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	1139	-1	-	-
+Chr2_4572692_C/T	Chr2:4572692	T	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1155	1	-	-
+Chr2_4572856_C/G	Chr2:4572856	G	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	194	58	20	P/A	Ccg/Gcg	-	MODERATE	-	-1	-	-
+Chr2_4572856_C/G	Chr2:4572856	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	975	-1	-	-
+Chr2_4572856_C/G	Chr2:4572856	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	991	1	-	-
+Chr2_4572860_C/G	Chr2:4572860	G	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	190	54	18	A	gcC/gcG	-	LOW	-	-1	-	-
+Chr2_4572860_C/G	Chr2:4572860	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	971	-1	-	-
+Chr2_4572860_C/G	Chr2:4572860	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	987	1	-	-
+Chr2_4572863_C/G	Chr2:4572863	G	Os02g0181900	Os02t0181900-01	Transcript	synonymous_variant	187	51	17	A	gcC/gcG	-	LOW	-	-1	-	-
+Chr2_4572863_C/G	Chr2:4572863	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	968	-1	-	-
+Chr2_4572863_C/G	Chr2:4572863	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	984	1	-	-
+Chr2_4572870_C/G	Chr2:4572870	G	Os02g0181900	Os02t0181900-01	Transcript	missense_variant	180	44	15	P/R	cCc/cGc	-	MODERATE	-	-1	-	-
+Chr2_4572870_C/G	Chr2:4572870	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	961	-1	-	-
+Chr2_4572870_C/G	Chr2:4572870	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	977	1	-	-
+Chr2_4572974_G/A	Chr2:4572974	A	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	76	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4572974_G/A	Chr2:4572974	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	857	-1	-	-
+Chr2_4572974_G/A	Chr2:4572974	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	873	1	-	-
+Chr2_4573013_C/A	Chr2:4573013	A	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	37	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573013_C/A	Chr2:4573013	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	818	-1	-	-
+Chr2_4573013_C/A	Chr2:4573013	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	834	1	-	-
+Chr2_4573024_A/G	Chr2:4573024	G	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	26	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573024_A/G	Chr2:4573024	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	807	-1	-	-
+Chr2_4573024_A/G	Chr2:4573024	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	823	1	-	-
+Chr2_4573028_G/C	Chr2:4573028	C	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	22	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573028_G/C	Chr2:4573028	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	803	-1	-	-
+Chr2_4573028_G/C	Chr2:4573028	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	819	1	-	-
+Chr2_4573029_T/C,G	Chr2:4573029	C,G	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	21	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573029_T/C,G	Chr2:4573029	C,G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	802	-1	-	-
+Chr2_4573029_T/C,G	Chr2:4573029	C,G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	818	1	-	-
+Chr2_4573034_A/G	Chr2:4573034	G	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	16	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573034_A/G	Chr2:4573034	G	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	797	-1	-	-
+Chr2_4573034_A/G	Chr2:4573034	G	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	813	1	-	-
+Chr2_4573042_A/C	Chr2:4573042	C	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	8	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573042_A/C	Chr2:4573042	C	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	789	-1	-	-
+Chr2_4573042_A/C	Chr2:4573042	C	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	805	1	-	-
+Chr2_4573046_G/A	Chr2:4573046	A	Os02g0181900	Os02t0181900-01	Transcript	5_prime_UTR_variant	4	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4573046_G/A	Chr2:4573046	A	Os02g0182100	Os02t0182100-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	785	-1	-	-
+Chr2_4573046_G/A	Chr2:4573046	A	Os02g0182200	Os02t0182200-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	801	1	-	-
