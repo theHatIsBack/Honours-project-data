@@ -1,0 +1,301 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v101.0
+## Output produced at 2020-11-20 14:02:32
+## Connected to oryza_sativa_core_48_101_7 on mysql-eg-publicsql.ebi.ac.uk
+## Using cache in /home/cameron/.vep/oryza_sativa/48_IRGSP-1.0
+## Using API version 101, DB version 101
+## ensembl-funcgen version 101.b918a49
+## ensembl-variation version 101.819eef2
+## ensembl-io version 101.943b6c2
+## ensembl version 101.856c8e8
+## assembly version IRGSP-1.0
+## sift version 5.2.2
+## genebuild version 2019-06-RAPDB
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## SIFT : SIFT prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	SIFT
+Chr2_4650732_G/A	Chr2:4650732	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	10	10	4	V/M	Gtg/Atg	-	MODERATE	-	1	-	-
+Chr2_4650732_G/A	Chr2:4650732	A	Os02g0183550	Os02t0183550-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	30	-1	-	-
+Chr2_4650821_G/T	Chr2:4650821	T	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	99	99	33	A	gcG/gcT	-	LOW	-	1	-	-
+Chr2_4650821_G/T	Chr2:4650821	T	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1445	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4650861_C/T	Chr2:4650861	T	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	139	139	47	R/W	Cgg/Tgg	-	MODERATE	-	1	-	-
+Chr2_4650861_C/T	Chr2:4650861	T	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1405	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4650965_T/A	Chr2:4650965	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4650965_T/A	Chr2:4650965	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4650976_T/G	Chr2:4650976	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4650976_T/G	Chr2:4650976	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651031_T/C	Chr2:4651031	C	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	189	189	63	G	ggT/ggC	-	LOW	-	1	-	-
+Chr2_4651031_T/C	Chr2:4651031	C	Os02g0183550	Os02t0183550-00	Transcript	splice_region_variant,3_prime_UTR_variant	1359	-	-	-	-	-	LOW	-	-1	-	-
+Chr2_4651083_G/A	Chr2:4651083	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	241	241	81	A/T	Gct/Act	-	MODERATE	-	1	-	deleterious_low_confidence(0)
+Chr2_4651083_G/A	Chr2:4651083	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1307	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651093_G/A	Chr2:4651093	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	251	251	84	R/H	cGc/cAc	-	MODERATE	-	1	-	deleterious_low_confidence(0.01)
+Chr2_4651093_G/A	Chr2:4651093	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1297	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651128_C/A	Chr2:4651128	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	286	286	96	P/T	Ccg/Acg	-	MODERATE	-	1	-	deleterious_low_confidence(0.02)
+Chr2_4651128_C/A	Chr2:4651128	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1262	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651132_G/C	Chr2:4651132	C	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	290	290	97	R/P	cGg/cCg	-	MODERATE	-	1	-	deleterious_low_confidence(0.04)
+Chr2_4651132_G/C	Chr2:4651132	C	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1258	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651135_G/A	Chr2:4651135	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	293	293	98	R/Q	cGg/cAg	-	MODERATE	-	1	-	deleterious_low_confidence(0.03)
+Chr2_4651135_G/A	Chr2:4651135	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1255	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651195_A/G	Chr2:4651195	G	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	353	353	118	H/R	cAc/cGc	-	MODERATE	-	1	-	deleterious_low_confidence(0.03)
+Chr2_4651195_A/G	Chr2:4651195	G	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1195	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651234_C/G	Chr2:4651234	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651234_C/G	Chr2:4651234	G	Os02g0183550	Os02t0183550-00	Transcript	splice_region_variant,intron_variant	-	-	-	-	-	-	LOW	-	-1	-	-
+Chr2_4651329_C/A	Chr2:4651329	A	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	406	406	136	R	Cga/Aga	-	LOW	-	1	-	-
+Chr2_4651329_C/A	Chr2:4651329	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1141	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651430_C/A	Chr2:4651430	A	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	507	507	169	G	ggC/ggA	-	LOW	-	1	-	-
+Chr2_4651430_C/A	Chr2:4651430	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1040	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651437_C/A	Chr2:4651437	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	514	514	172	R/S	Cgt/Agt	-	MODERATE	-	1	-	deleterious_low_confidence(0.03)
+Chr2_4651437_C/A	Chr2:4651437	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1033	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651465_G/T	Chr2:4651465	T	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	542	542	181	R/L	cGt/cTt	-	MODERATE	-	1	-	deleterious_low_confidence(0.03)
+Chr2_4651465_G/T	Chr2:4651465	T	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	1005	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651475_G/A	Chr2:4651475	A	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	552	552	184	E	gaG/gaA	-	LOW	-	1	-	-
+Chr2_4651475_G/A	Chr2:4651475	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	995	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651492_C/A	Chr2:4651492	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	569	569	190	A/E	gCg/gAg	-	MODERATE	-	1	-	deleterious_low_confidence(0.03)
+Chr2_4651492_C/A	Chr2:4651492	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	978	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651522_G/A	Chr2:4651522	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	599	599	200	R/H	cGc/cAc	-	MODERATE	-	1	-	deleterious_low_confidence(0.04)
+Chr2_4651522_G/A	Chr2:4651522	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	948	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651529_G/A	Chr2:4651529	A	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	606	606	202	A	gcG/gcA	-	LOW	-	1	-	-
+Chr2_4651529_G/A	Chr2:4651529	A	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	941	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651532_T/C	Chr2:4651532	C	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	609	609	203	H	caT/caC	-	LOW	-	1	-	-
+Chr2_4651532_T/C	Chr2:4651532	C	Os02g0183550	Os02t0183550-00	Transcript	3_prime_UTR_variant	938	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651624_G/A	Chr2:4651624	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651624_G/A	Chr2:4651624	A	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	846	812	271	T/M	aCg/aTg	-	MODERATE	-	-1	-	-
+Chr2_4651637_A/G	Chr2:4651637	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651637_A/G	Chr2:4651637	G	Os02g0183550	Os02t0183550-00	Transcript	splice_region_variant,synonymous_variant	833	799	267	L	Ttg/Ctg	-	LOW	-	-1	-	-
+Chr2_4651651_A/G	Chr2:4651651	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651651_A/G	Chr2:4651651	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651656_G/A	Chr2:4651656	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651656_G/A	Chr2:4651656	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651669_C/T	Chr2:4651669	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651669_C/T	Chr2:4651669	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651677_G/T	Chr2:4651677	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651677_G/T	Chr2:4651677	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651698_C/T	Chr2:4651698	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651698_C/T	Chr2:4651698	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651701_C/T	Chr2:4651701	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651701_C/T	Chr2:4651701	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651709_G/A	Chr2:4651709	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651709_G/A	Chr2:4651709	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651733_T/C	Chr2:4651733	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651733_T/C	Chr2:4651733	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651736_A/G	Chr2:4651736	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651736_A/G	Chr2:4651736	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651757_C/T	Chr2:4651757	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651757_C/T	Chr2:4651757	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651766_G/A,C	Chr2:4651766	A,C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651766_G/A,C	Chr2:4651766	A,C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651767_C/T	Chr2:4651767	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651767_C/T	Chr2:4651767	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651788_T/C	Chr2:4651788	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651788_T/C	Chr2:4651788	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651791_G/A	Chr2:4651791	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651791_G/A	Chr2:4651791	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651797_T/C	Chr2:4651797	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651797_T/C	Chr2:4651797	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651809_G/A	Chr2:4651809	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651809_G/A	Chr2:4651809	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651813_G/A	Chr2:4651813	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651813_G/A	Chr2:4651813	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651816_T/A	Chr2:4651816	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651816_T/A	Chr2:4651816	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651820_A/T	Chr2:4651820	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651820_A/T	Chr2:4651820	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651824_T/C	Chr2:4651824	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651824_T/C	Chr2:4651824	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651843_T/A	Chr2:4651843	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651843_T/A	Chr2:4651843	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651847_T/C	Chr2:4651847	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651847_T/C	Chr2:4651847	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651856_C/T	Chr2:4651856	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651856_C/T	Chr2:4651856	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651871_T/C	Chr2:4651871	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651871_T/C	Chr2:4651871	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651903_C/T	Chr2:4651903	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651903_C/T	Chr2:4651903	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651914_G/A	Chr2:4651914	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651914_G/A	Chr2:4651914	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651929_C/A,G	Chr2:4651929	A,G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651929_C/A,G	Chr2:4651929	A,G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651946_C/T	Chr2:4651946	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651946_C/T	Chr2:4651946	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651961_G/T	Chr2:4651961	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651961_G/T	Chr2:4651961	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651963_G/T	Chr2:4651963	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651963_G/T	Chr2:4651963	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651964_G/A	Chr2:4651964	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651964_G/A	Chr2:4651964	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651980_T/C	Chr2:4651980	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651980_T/C	Chr2:4651980	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651984_T/C	Chr2:4651984	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651984_T/C	Chr2:4651984	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651988_G/A	Chr2:4651988	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651988_G/A	Chr2:4651988	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4651995_G/A	Chr2:4651995	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4651995_G/A	Chr2:4651995	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652000_A/T	Chr2:4652000	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652000_A/T	Chr2:4652000	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652035_C/A,T	Chr2:4652035	A,T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652035_C/A,T	Chr2:4652035	A,T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652040_A/T	Chr2:4652040	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652040_A/T	Chr2:4652040	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652096_C/T	Chr2:4652096	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652096_C/T	Chr2:4652096	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652109_T/C	Chr2:4652109	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652109_T/C	Chr2:4652109	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652165_T/C	Chr2:4652165	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652165_T/C	Chr2:4652165	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652248_C/T	Chr2:4652248	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652248_C/T	Chr2:4652248	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652462_T/G	Chr2:4652462	G	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	734	734	245	F/C	tTt/tGt	-	MODERATE	-	1	-	deleterious(0)
+Chr2_4652462_T/G	Chr2:4652462	G	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	809	775	259	K/Q	Aaa/Caa	-	MODERATE	-	-1	-	-
+Chr2_4652509_C/G	Chr2:4652509	G	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	781	781	261	L/V	Ctt/Gtt	-	MODERATE	-	1	-	deleterious(0.01)
+Chr2_4652509_C/G	Chr2:4652509	G	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	762	728	243	S/T	aGc/aCc	-	MODERATE	-	-1	-	-
+Chr2_4652522_G/T	Chr2:4652522	T	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	794	794	265	G/V	gGc/gTc	-	MODERATE	-	1	-	deleterious(0)
+Chr2_4652522_G/T	Chr2:4652522	T	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	749	715	239	P/T	Cca/Aca	-	MODERATE	-	-1	-	-
+Chr2_4652535_G/A	Chr2:4652535	A	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	807	807	269	L	ctG/ctA	-	LOW	-	1	-	-
+Chr2_4652535_G/A	Chr2:4652535	A	Os02g0183550	Os02t0183550-00	Transcript	splice_region_variant,synonymous_variant	736	702	234	T	acC/acT	-	LOW	-	-1	-	-
+Chr2_4652582_T/A	Chr2:4652582	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652582_T/A	Chr2:4652582	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652583_G/T	Chr2:4652583	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652583_G/T	Chr2:4652583	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652637_A/C	Chr2:4652637	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652637_A/C	Chr2:4652637	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652669_A/G	Chr2:4652669	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652669_A/G	Chr2:4652669	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652676_C/T	Chr2:4652676	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652676_C/T	Chr2:4652676	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652736_G/A	Chr2:4652736	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652736_G/A	Chr2:4652736	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652771_A/G	Chr2:4652771	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652771_A/G	Chr2:4652771	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652819_G/A	Chr2:4652819	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652819_G/A	Chr2:4652819	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652823_T/C	Chr2:4652823	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652823_T/C	Chr2:4652823	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652827_A/T	Chr2:4652827	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652827_A/T	Chr2:4652827	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652842_G/T	Chr2:4652842	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652842_G/T	Chr2:4652842	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652848_A/T	Chr2:4652848	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652848_A/T	Chr2:4652848	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652860_C/T	Chr2:4652860	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652860_C/T	Chr2:4652860	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652862_G/A	Chr2:4652862	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652862_G/A	Chr2:4652862	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652872_A/G	Chr2:4652872	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652872_A/G	Chr2:4652872	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652875_G/A	Chr2:4652875	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652875_G/A	Chr2:4652875	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652878_C/T	Chr2:4652878	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652878_C/T	Chr2:4652878	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652920_G/A	Chr2:4652920	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652920_G/A	Chr2:4652920	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652926_C/T	Chr2:4652926	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652926_C/T	Chr2:4652926	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652928_G/T	Chr2:4652928	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652928_G/T	Chr2:4652928	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652933_T/C	Chr2:4652933	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652933_T/C	Chr2:4652933	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652936_G/T	Chr2:4652936	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652936_G/T	Chr2:4652936	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652939_C/T	Chr2:4652939	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652939_C/T	Chr2:4652939	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652952_G/A	Chr2:4652952	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652952_G/A	Chr2:4652952	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652954_A/G	Chr2:4652954	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652954_A/G	Chr2:4652954	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652959_G/A	Chr2:4652959	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652959_G/A	Chr2:4652959	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652965_A/G	Chr2:4652965	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652965_A/G	Chr2:4652965	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652972_C/T	Chr2:4652972	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652972_C/T	Chr2:4652972	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652985_C/T	Chr2:4652985	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652985_C/T	Chr2:4652985	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652987_A/C	Chr2:4652987	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652987_A/C	Chr2:4652987	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652990_C/T	Chr2:4652990	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652990_C/T	Chr2:4652990	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652991_A/T	Chr2:4652991	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652991_A/T	Chr2:4652991	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652993_C/T	Chr2:4652993	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652993_C/T	Chr2:4652993	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652995_A/G	Chr2:4652995	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652995_A/G	Chr2:4652995	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652996_G/A	Chr2:4652996	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652996_G/A	Chr2:4652996	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4652999_C/T	Chr2:4652999	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4652999_C/T	Chr2:4652999	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653007_A/G	Chr2:4653007	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653007_A/G	Chr2:4653007	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653012_C/T	Chr2:4653012	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653012_C/T	Chr2:4653012	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653022_G/T	Chr2:4653022	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653022_G/T	Chr2:4653022	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653025_T/C	Chr2:4653025	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653025_T/C	Chr2:4653025	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653027_G/A	Chr2:4653027	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653027_G/A	Chr2:4653027	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653038_G/A	Chr2:4653038	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653038_G/A	Chr2:4653038	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653039_G/T	Chr2:4653039	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653039_G/T	Chr2:4653039	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653040_G/A	Chr2:4653040	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653040_G/A	Chr2:4653040	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653060_G/A	Chr2:4653060	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653060_G/A	Chr2:4653060	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653065_T/A	Chr2:4653065	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653065_T/A	Chr2:4653065	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653075_C/T	Chr2:4653075	T	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653075_C/T	Chr2:4653075	T	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653086_T/G	Chr2:4653086	G	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653086_T/G	Chr2:4653086	G	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653161_T/C	Chr2:4653161	C	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653161_T/C	Chr2:4653161	C	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653173_C/A	Chr2:4653173	A	Os02g0183500	Os02t0183500-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	-
+Chr2_4653173_C/A	Chr2:4653173	A	Os02g0183550	Os02t0183550-00	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653269_G/A	Chr2:4653269	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	843	843	281	M/I	atG/atA	-	MODERATE	-	1	-	deleterious(0.02)
+Chr2_4653269_G/A	Chr2:4653269	A	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	701	667	223	H/Y	Cat/Tat	-	MODERATE	-	-1	-	-
+Chr2_4653330_G/A	Chr2:4653330	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	904	904	302	D/N	Gac/Aac	-	MODERATE	-	1	-	deleterious(0.02)
+Chr2_4653330_G/A	Chr2:4653330	A	Os02g0183550	Os02t0183550-00	Transcript	synonymous_variant	640	606	202	V	gtC/gtT	-	LOW	-	-1	-	-
+Chr2_4653346_C/G	Chr2:4653346	G	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	920	920	307	A/G	gCg/gGg	-	MODERATE	-	1	-	tolerated(0.09)
+Chr2_4653346_C/G	Chr2:4653346	G	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	624	590	197	R/P	cGc/cCc	-	MODERATE	-	-1	-	-
+Chr2_4653383_C/A	Chr2:4653383	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	957	957	319	H/Q	caC/caA	-	MODERATE	-	1	-	tolerated(1)
+Chr2_4653383_C/A	Chr2:4653383	A	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	587	553	185	V/L	Gtg/Ttg	-	MODERATE	-	-1	-	-
+Chr2_4653436_C/A	Chr2:4653436	A	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	1010	1010	337	A/D	gCc/gAc	-	MODERATE	-	1	-	tolerated(0.07)
+Chr2_4653436_C/A	Chr2:4653436	A	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	534	500	167	G/V	gGc/gTc	-	MODERATE	-	-1	-	-
+Chr2_4653436_C/A	Chr2:4653436	A	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4953	-1	-	-
+Chr2_4653440_C/T	Chr2:4653440	T	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	1014	1014	338	G	ggC/ggT	-	LOW	-	1	-	-
+Chr2_4653440_C/T	Chr2:4653440	T	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	530	496	166	A/T	Gcc/Acc	-	MODERATE	-	-1	-	-
+Chr2_4653440_C/T	Chr2:4653440	T	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4949	-1	-	-
+Chr2_4653473_C/T	Chr2:4653473	T	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	1047	1047	349	G	ggC/ggT	-	LOW	-	1	-	-
+Chr2_4653473_C/T	Chr2:4653473	T	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	497	463	155	A/T	Gcc/Acc	-	MODERATE	-	-1	-	-
+Chr2_4653473_C/T	Chr2:4653473	T	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4916	-1	-	-
+Chr2_4653514_A/C	Chr2:4653514	C	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	1088	1088	363	D/A	gAc/gCc	-	MODERATE	-	1	-	tolerated(1)
+Chr2_4653514_A/C	Chr2:4653514	C	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	456	422	141	V/G	gTc/gGc	-	MODERATE	-	-1	-	-
+Chr2_4653514_A/C	Chr2:4653514	C	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4875	-1	-	-
+Chr2_4653755_C/T	Chr2:4653755	T	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	1329	1329	443	D	gaC/gaT	-	LOW	-	1	-	-
+Chr2_4653755_C/T	Chr2:4653755	T	Os02g0183550	Os02t0183550-00	Transcript	missense_variant	215	181	61	V/I	Gtc/Atc	-	MODERATE	-	-1	-	-
+Chr2_4653755_C/T	Chr2:4653755	T	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4634	-1	-	-
+Chr2_4653830_G/A	Chr2:4653830	A	Os02g0183500	Os02t0183500-00	Transcript	synonymous_variant	1404	1404	468	L	ctG/ctA	-	LOW	-	1	-	-
+Chr2_4653830_G/A	Chr2:4653830	A	Os02g0183550	Os02t0183550-00	Transcript	stop_gained	140	106	36	Q/*	Cag/Tag	-	HIGH	-	-1	-	-
+Chr2_4653830_G/A	Chr2:4653830	A	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4559	-1	-	-
+Chr2_4653946_G/C	Chr2:4653946	C	Os02g0183500	Os02t0183500-00	Transcript	missense_variant	1520	1520	507	G/A	gGa/gCa	-	MODERATE	-	1	-	deleterious_low_confidence(0.01)
+Chr2_4653946_G/C	Chr2:4653946	C	Os02g0183550	Os02t0183550-00	Transcript	5_prime_UTR_variant	24	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4653946_G/C	Chr2:4653946	C	Os02g0183900	Os02t0183900-00	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	4443	-1	-	-
