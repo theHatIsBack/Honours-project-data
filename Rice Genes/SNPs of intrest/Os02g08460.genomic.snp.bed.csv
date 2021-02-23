@@ -1,0 +1,5 @@
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	SIFT
+Chr2_4557023_T/G	Chr2:4557023	G	Os02g0181700	Os02t0181700-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1774	1	-	-
+Chr2_4557123_T/C	Chr2:4557123	C	Os02g0181700	Os02t0181700-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1674	1	-	-
+Chr2_4557137_G/T	Chr2:4557137	T	Os02g0181700	Os02t0181700-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1660	1	-	-
+Chr2_4557211_T/A	Chr2:4557211	A	Os02g0181700	Os02t0181700-00	Transcript	upstream_gene_variant	-	-	-	-	-	-	MODIFIER	1586	1	-	-

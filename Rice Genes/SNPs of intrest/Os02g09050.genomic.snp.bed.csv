@@ -1,0 +1,16 @@
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	SIFT
+Chr2_4629806_C/T	Chr2:4629806	T	Os02g0182850	Os02t0182850-00	Transcript	synonymous_variant	375	285	95	P	ccC/ccT	-	LOW	-	-1	-	-
+Chr2_4629806_C/T	Chr2:4629806	T	Os02g0182900	Os02t0182900-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	640	-1	-	-
+Chr2_4629806_C/T	Chr2:4629806	T	Os02g0182900	Os02t0182900-02	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	524	-1	-	-
+Chr2_4629997_C/T	Chr2:4629997	T	Os02g0182850	Os02t0182850-00	Transcript	missense_variant	184	94	32	R/C	Cgc/Tgc	-	MODERATE	-	-1	-	tolerated(0.06)
+Chr2_4629997_C/T	Chr2:4629997	T	Os02g0182900	Os02t0182900-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	449	-1	-	-
+Chr2_4629997_C/T	Chr2:4629997	T	Os02g0182900	Os02t0182900-02	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	333	-1	-	-
+Chr2_4630078_C/A	Chr2:4630078	A	Os02g0182850	Os02t0182850-00	Transcript	missense_variant	103	13	5	P/T	Ccc/Acc	-	MODERATE	-	-1	-	tolerated_low_confidence(0.32)
+Chr2_4630078_C/A	Chr2:4630078	A	Os02g0182900	Os02t0182900-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	368	-1	-	-
+Chr2_4630078_C/A	Chr2:4630078	A	Os02g0182900	Os02t0182900-02	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	252	-1	-	-
+Chr2_4630112_T/C	Chr2:4630112	C	Os02g0182850	Os02t0182850-00	Transcript	5_prime_UTR_variant	69	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4630112_T/C	Chr2:4630112	C	Os02g0182900	Os02t0182900-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	334	-1	-	-
+Chr2_4630112_T/C	Chr2:4630112	C	Os02g0182900	Os02t0182900-02	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	218	-1	-	-
+Chr2_4630123_G/T	Chr2:4630123	T	Os02g0182850	Os02t0182850-00	Transcript	5_prime_UTR_variant	58	-	-	-	-	-	MODIFIER	-	-1	-	-
+Chr2_4630123_G/T	Chr2:4630123	T	Os02g0182900	Os02t0182900-01	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	323	-1	-	-
+Chr2_4630123_G/T	Chr2:4630123	T	Os02g0182900	Os02t0182900-02	Transcript	downstream_gene_variant	-	-	-	-	-	-	MODIFIER	207	-1	-	-
