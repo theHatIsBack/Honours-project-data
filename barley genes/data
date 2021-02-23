@@ -1,0 +1,28 @@
+H1		H2		H3		H4		H5		H6	
+SNP	position	SNP	position	SNP	position	SNP	position	SNP	position	SNP	position
+C/A	1226	G/C	3701	G/A	4762	T/A	3998	G/A	4762	A/G	1071
+A/G	1294	G/A	3782	G/A	4824	T/C	4173	G/A	4824	G/A	1152
+C/T	1590	G/A	4762	G/A	4878	G/A	4762	G/A	4878	C/A	1226
+T/C	1594	G/A	4824	G/A	4950	G/A	4824	G/A	4950	T/A	1282
+A/G	1723	G/A	4878	G/A	4969	G/A	4878	G/A	4969	A/G	1294
+A/G	1752	G/A	4950			G/A	4950			G/A	1512
+T/C	1868	G/A	4969							/T	1515
+/T	3799									T/C	1516
+/G	3800									C/A	1517
+/G	3806									G/A	1694
+T/A	4003									A/G	1724
+T/C	4176									A/G	1753
+G/A	4682									T/C	2025
+										T/C	2079
+										G/A	2083
+										G/A	3696
+										A/G	3726
+										T/G	3786
+										T/A	3999
+										G/A	4680
+										G/A	4763
+										G/A	4825
+										G/A	4879
+										G/A	4951
+										G/A	4970
+
