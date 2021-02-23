@@ -1,0 +1,15 @@
+#!/bin/bash
+
+fileNames=`ls ~/Documents/4th\ Year/Honours\ Project/Data/rice\ genes/Vep\ input/`
+
+cd ~/ensembl-vep/
+set -- $fileNames
+
+for File in ${fileNames[@]}
+do
+	./vep --cache --cache_version 48 --format ensembl -i ~/Documents/4th\ Year/Honours\ Project/Data/rice\ genes/Vep\ input/$File --genomes --species Oryza_sativa --no_stats --sift b --tab --force_overwrite -o ~/Documents/4th\ Year/Honours\ Project/Data/rice\ genes/vep\ output/$File.csv
+	echo 'done -- '$File
+done
+
+echo 'complete'
+
